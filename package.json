@@ -1,0 +1,30 @@
+{
+  "name": "flash-signal",
+  "version": "0.0.1",
+  "description": "a signal server for flash",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "pm2 start src/app.js --name flash-signal",
+    "restart": "pm2 restart flash-signal",
+    "stop": "pm2 stop flash-signal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debrief-BC/flash-signal.git"
+  },
+  "author": "Alfred4Debrief",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Debrief-BC/flash-signal/issues"
+  },
+  "homepage": "https://github.com/Debrief-BC/flash-signal#readme",
+  "dependencies": {
+    "crypto-random-string": "^3.2.0",
+    "socket.io": "^2.3.0",
+    "web3": "^1.2.6",
+    "web3-debrief-extend": "0.0.1"
+  },
+  "devDependencies": {
+    "pm2": "^4.2.3"
+  }
+}
