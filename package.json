@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Debrief-BC/flash-signal#readme",
   "dependencies": {
+    "minimist": ">=0.2.1",
     "crypto-random-string": "^3.2.0",
     "socket.io": "^2.3.0",
     "web3": "^1.2.6",
